@@ -1,0 +1,12 @@
+README.md
+setup.py
+predict_skills.egg-info/PKG-INFO
+predict_skills.egg-info/SOURCES.txt
+predict_skills.egg-info/dependency_links.txt
+predict_skills.egg-info/top_level.txt
+src/__init__.py
+src/collector.py
+src/features.py
+src/forecaster.py
+src/recommender.py
+src/utils.py
