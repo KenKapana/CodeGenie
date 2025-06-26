@@ -2,3 +2,8 @@ streamlit
 requests
 pandas
 prophet
+pytrends
+scikit-learn
+numpy
+matplotlib
+dotenv

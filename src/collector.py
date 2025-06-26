@@ -1,8 +1,11 @@
 import requests
 from collections import Counter
+from dotenv import load_dotenv
+import os
 
-ADZUNA_APP_ID = "0987ce8d"
-ADZUNA_APP_KEY = "b9fbd96bed4d6bcc2fc613b97b65fd2a"
+load_dotenv()
+ADZUNA_APP_ID = os.getenv("ADZUNA_APP_ID")
+ADZUNA_APP_KEY = os.getenv("ADZUNA_APP_KEY")
 COUNTRY = "ca"
 GITHUB_TOPICS = ["machine-learning", "data-science", "web-development", "python", "javascript"]
 
